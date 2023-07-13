@@ -5,6 +5,13 @@ h1 {
 }
 
 h2 {
+    font-size: 3em;
+    color: rgb(23, 0, 153);
+    text-align:center;
+    margin-top: 100px;
+}
+
+h3 {
     font-size: 2em;
     color: rgb(23, 0, 153);
     text-align:center;
@@ -95,4 +102,15 @@ h2 {
 .c5 .green {
     top:150px;
     left:650px;
+}
+
+button {
+    display: block;
+    margin: 50px auto;
+    width: 175px;
+    height:65px;
+    font-size:2em;
+    border:none;
+    border-radius:10px;
+    background-color: 
 }
