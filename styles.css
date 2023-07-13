@@ -12,36 +12,87 @@ h2 {
 }
 
 .c1, .c2, .c3, .c4, .c5 {
-    height: 500px;
-    width: 1000px;
-    border: 5px solid black;
+    height: 400px;
+    width: 800px;
+    border: 3px solid black;
     margin: 0 auto;
+    position: relative;
 }
 
 .red {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: red;
     position: absolute;
 }
 
 .yellow {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     background-color: yellow;
     position: absolute;
 }
 
 .green {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: green;
     position: absolute;
 }
 
 .blue {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-color: blue;
     position: absolute;
+}
+
+.c1 .yellow {
+    top: 25px;
+    left: 25px;
+}
+
+.c1 .green {
+    top: 50px;
+    left: 50px;
+}
+
+
+.c1 .blue {
+    top: 75px;
+    left: 75px;
+}
+
+.c2 .blue {
+    left:750px;
+}
+
+.c3 .green {
+    top: 100px;
+    left: 200px;
+}
+
+.c3 .blue {
+    top: 150px;
+    left:200px;
+}
+
+.c4 .yellow {
+    top:50px;
+    left:50px;
+}
+
+.c4 .blue {
+    top:50px;
+    left:50px;
+}
+
+.c5 .yellow {
+    top:250px;
+    left:650px;
+}
+
+.c5 .green {
+    top:150px;
+    left:650px;
 }
