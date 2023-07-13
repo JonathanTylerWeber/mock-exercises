@@ -119,6 +119,7 @@ button {
 
 button:hover {
     background-color: rgb(46,99,163);
+    cursor: pointer;
 }
 
 button:active {
@@ -135,7 +136,7 @@ button:active {
     box-shadow: 0px 5px 5px rgb(200,200,200);
 }
 
-img {
+.container img {
     width: 100%;
     border-radius:10px 10px 0 0 ;
 }
@@ -149,3 +150,49 @@ img {
 .cat3 p {
     margin: 1em;
 }
+
+.tiles {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.tiles {
+    margin-bottom: 4em;
+}
+
+.tile {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 10px solid peachpuff;
+    background-color: peachpuff;
+}
+
+.tile img {
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 300px;
+    font-size: 3em;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    transition: top 0.6s;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile:hover .caption {
+    top: 0;
+  }
+
