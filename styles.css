@@ -112,5 +112,40 @@ button {
     font-size:2em;
     border:none;
     border-radius:10px;
-    background-color: 
+    background-color: rgb(78,153,245);
+    color: white;
+    transition: ease-in-out all 0.05s;
+}
+
+button:hover {
+    background-color: rgb(46,99,163);
+}
+
+button:active {
+    transform: scale(1.05);
+  }
+
+.container {
+    border-radius:10px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgb(235,235,235);
+    padding-bottom: 0.5em;
+    border: 1px solid rgb(208,208,208);
+    box-shadow: 0px 5px 5px rgb(200,200,200);
+}
+
+img {
+    width: 100%;
+    border-radius:10px 10px 0 0 ;
+}
+
+.cat2 p {
+    font-size: 1.5em;
+    font-weight:bold;
+    margin: 1em;
+}
+
+.cat3 p {
+    margin: 1em;
 }
