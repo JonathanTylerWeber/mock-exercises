@@ -184,7 +184,7 @@ button:active {
     font-size: 3em;
     background-color: rgba(0,0,0,.5);
     color: white;
-    transition: top 0.6s;
+    transition: top 0.3s;
     text-align: center;
     border-radius: 10px;
     display: flex;
